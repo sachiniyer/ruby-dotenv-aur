@@ -43,7 +43,7 @@ build() {
     --verbose \
     --ignore-dependencies \
     --no-user-install \
-    --install-dir "tmp_install/${_gemdir}" \
+    --install-dir "tmp_install/usr/bin" \
     --bindir "tmp_install/usr/bin" \
     "${_name}-${pkgver}.gem"
 
